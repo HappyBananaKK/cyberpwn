@@ -9,3 +9,4 @@ log.success(p.recvline_regex(rb"SPRITZ{.*}").decode("ascii"))    #cerca la flag 
 
 
 PER FAR PARITE UNO SCRIPT-> python nomeScript.py
+p.sendline(b("Y")) PER AGGIUNGERE TESTO AGGIUNTIVO
